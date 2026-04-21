@@ -70,7 +70,7 @@ void draw_menu(int selected) {
 
     printf("SSH Host Selector\n");
     printf("-----------------\n");
-    printf("↑↓: Move  Enter: Connect  q: Quit\n\n");
+    printf("Up/Down: Move  Enter: Connect  q: Quit\n\n");
 
     for (int i = 0; i < host_count; i++) {
         if (i == selected) {
